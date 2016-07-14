@@ -1,6 +1,6 @@
-You'll have to do:
+You'll have to do this in terminal inside this server folder:
 
-npm install Express
+npm install express
 
 then
 
