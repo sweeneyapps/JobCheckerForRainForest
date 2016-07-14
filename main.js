@@ -7,7 +7,7 @@ var WAIT_TIME = 5000;
 var baseURL = 'http://localhost:3000/';
 var timer = { start: Date.now(), end: Date.now() }; // setting up timer  (will create better one later)
 
-// Exension Button Event
+// Extension Button Event
 chrome.browserAction.onClicked.addListener(function (t) {
    
     // click to reset
