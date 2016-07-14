@@ -17,3 +17,15 @@ You'll see extension's button with smiley face also w/ a badge, "NO".    When jo
 You can click the button to reset the server's counter back to 0.   Because the server will only say "YES" at 5th time only.
 
 This project is only to address that there's no delay in creating a tab function even if the server is still loading.
+
+----
+To install the extension on Chrome, you need to be in developer mode.
+ go to:
+chrome://extensions/
+
+Click "Load unpacked extension" button
+
+then you'll look for the ext directory and select it.
+
+----
+To run nodejs server, there's readme.MD in server folder.   Otherwise, you'll have to have nodejs installed on your machine so then, to learn how? go to https://nodejs.org/en/
