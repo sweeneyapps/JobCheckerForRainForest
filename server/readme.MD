@@ -10,3 +10,7 @@ After running the server, you can check by opening this link in ur browser:
 
 http://localhost:3000/
 
+----
+
+To install nodejs on your machine: go to https://nodejs.org/en/
+
