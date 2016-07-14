@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "myicons.png"
+   },
+   "description": "My Test Extension for Rainforest job checker",
+    "externally_connectable": {
+      "matches": [ "http://localhost:3000/" ]
+   },
+  
+   "homepage_url": "https://github.com/sweeneyapps/JobCheckerForRainForest/",
+  
+   "manifest_version": 2,
+   "name": "Rainforst Test Extension",
+   "content_scripts": [{"js": [ "main.js" ], "matches": ["http://localhost:3000/"]}],
+  
+   "permissions": [ "cookies", "idle", "notifications", "tabs", "storage", "identity", "identity.email", "https://localhost:3000/" ],
+   "version": "1.0"
+}
