@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "myicons.png"
+   },
+   "description": "My Test Extension for Stuffs",
+   "externally_connectable": {
+      "matches": [ "*://sweeneyapps.com/*" ]
+   },
+   "homepage_url": "http://sweeneyapps.com",
+  
+   "manifest_version": 2,
+   "name": "Pauls Private Extension",
+   "content_scripts": [{"js": [ "popup.html", "app.js" ], "matches": ["http://*/"]}],
+   "permissions": [ "cookies", "idle", "notifications", "tabs", "storage", "identity", "identity.email", "https://*.sweeneyapps.com/*" ],
+   "version": "1.0"
+}
