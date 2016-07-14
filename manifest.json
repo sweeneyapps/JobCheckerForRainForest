@@ -6,15 +6,15 @@
    "browser_action": {
       "default_icon": "myicons.png"
    },
-   "description": "My Test Extension for Stuffs",
+   "description": "My Test Extension for Rainforest job checker",
    "externally_connectable": {
-      "matches": [ "*://sweeneyapps.com/*" ]
+      "matches": [ "*://*" ]
    },
-   "homepage_url": "http://sweeneyapps.com",
+   "homepage_url": "https://github.com/sweeneyapps/JobCheckerForRainForest/",
   
    "manifest_version": 2,
-   "name": "Pauls Private Extension",
-   "content_scripts": [{"js": [ "popup.html", "app.js" ], "matches": ["http://*/"]}],
-   "permissions": [ "cookies", "idle", "notifications", "tabs", "storage", "identity", "identity.email", "https://*.sweeneyapps.com/*" ],
+   "name": "Rainforest Test Extension",
+   
+   "permissions": [ "cookies", "idle", "notifications", "tabs", "storage", "identity", "identity.email", "https://*/" ],
    "version": "1.0"
 }
